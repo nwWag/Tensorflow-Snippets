@@ -1,0 +1,5 @@
+# Class Activation Mapping
+This network implements the class activation mappig http://cnnlocalization.csail.mit.edu by Zhou et al..
+Used dataset is the fashion MNIST by zalando.
+
+![](https://i.imgur.com/ImWo8SG.png)
