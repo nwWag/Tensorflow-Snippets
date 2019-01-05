@@ -7,7 +7,16 @@ The layer was pluged into a straightforward dense layer network for MNIST, yield
 
 # Class Activation Mapping
 This network implements the class activation mapping http://cnnlocalization.csail.mit.edu by Zhou et al..
-Trained a few seconds on on Google's Tesla K80. The used dataset is the fashion MNIST.
+Trained a few seconds on on Google's Tesla K80. The used dataset is the fashion MNIST. 
+Thereby interesting result have been generated even on such an easy dataset (see below, yellow for strong evidence, green middle, blue low).
+
+![](https://i.imgur.com/VTCAh2J.png)
+
+![](https://i.imgur.com/g4Olt1Q.png)
+
+![](https://i.imgur.com/MdMjKWO.png)
+
+![](https://i.imgur.com/QktDomP.png)
 
 # Residual Autoencoder
 Each trained approximately 5 min. on Google's Tesla K80.
