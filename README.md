@@ -1,3 +1,7 @@
+# Recurrent Convolutional Hierarchical Attention Network 
+## (Sorry for the name.)
+This is still ongoing work. The network is an adaption of http://www.aclweb.org/anthology/W18-3002 by Gao et al. Using conv layers makes it quicker and more reliable. However as a next step applying the cam trick (see below) allows to find evidence for activations and allows to give witnesses. In contrast to attention, which is certainly a good approximation for a witness. Nonetheless the most interesting challenge is developing an active learning algorithm for selecting the "right" words out of a text, using the cam witness.
+
 # SVM Layer
 This layer implements as an alternative to softmax regression a Support Vector Machine layer.
 This is done according to https://arxiv.org/abs/1306.0239 by Tang.
